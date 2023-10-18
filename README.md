@@ -15,7 +15,7 @@ The fundamental environment for this experiment is like below.
 
 Use Dockerfile to build the same environment. The required python library information is recorded in requirement.txt.
 
-2. Dataset
+2. **Dataset**</br>
 The dataset we used was not disclosed. In order to use the code, the code must be executed by configuring the following folder structure.
 
 >```bash
@@ -29,7 +29,7 @@ The dataset we used was not disclosed. In order to use the code, the code must b
 
 
 
-3. Training & Testing
+3. **Training & Testing**</br>
 If you have both data and environment, run the code below to perform learning and testing normally
 > ```bash
 > python main.py
