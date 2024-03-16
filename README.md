@@ -36,5 +36,4 @@ If you have both data and environment, run the code below to perform learning an
 > ```
 
 Create the weights folder in the top folder to store the weights of the learning model. And if you want to get an embedded image on Poincare Ball, create a temp folder as well.
-
-![UMAP](https://github.com/asd147asd147/Differentiation-of-Atypical-Parkinsonian-Syndromes-Using-Hyperbolic-Few-Shot-Contrastive-Learning/assets/55697983/50760997-e5e7-4b70-a90d-928248574cfb)
+![UMAP](https://github.com/asd147asd147/Differentiation-of-Atypical-Parkinsonian-Syndromes-Using-Hyperbolic-Few-Shot-Contrastive-Learning/assets/55697983/eacdb273-8e93-437d-90b2-def110611423)
