@@ -28,11 +28,7 @@ class SiameseNetwork(nn.Module):
         self.fc = nn.Sequential(
             nn.Linear(256*9*6*4, 512),
             nn.ReLU(inplace=True),
-
-            nn.Linear(512, self.z),
-            # nn.ReLU(inplace=True),
-
-            # nn.Linear(512, 128),
+            nn.Linear(256, self.z),
         )
 
     def activation_map(self, x):
@@ -41,9 +37,7 @@ class SiameseNetwork(nn.Module):
 
     def forward_once(self, x):
         output = self.conv(x)
-        # print(output.shape)
         output = output.view(output.size()[0], -1)
-        # print(output.shape)
         output = self.fc(output)
         return output
 
