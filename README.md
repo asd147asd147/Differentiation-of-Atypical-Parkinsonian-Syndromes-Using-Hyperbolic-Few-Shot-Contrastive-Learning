@@ -45,12 +45,13 @@ Once the environment and dataset are ready, execute the following command to sta
 python main.py
 ```
 
-Model Outputs
-  Weights: Create a weights directory in the project root to store model weights.
-  Visualizations: To generate embedded images on the Poincaré Ball, create a temp directory.
+Model Outputs   
+- Weights: Create a weights directory in the project root to store model weights.   
+- Visualizations: To generate embedded images on the Poincaré Ball, create a temp directory.   
 
 ![UMAP](https://github.com/asd147asd147/Differentiation-of-Atypical-Parkinsonian-Syndromes-Using-Hyperbolic-Few-Shot-Contrastive-Learning/assets/55697983/eacdb273-8e93-437d-90b2-def110611423)
 
+```base
 @article{choi2024differentiation,
   title={Differentiating atypical parkinsonian syndromes with hyperbolic few-shot contrastive learning},
   author={Choi, Won June and HwangBo, Jin and Duong, Quan Anh and Lee, Jae-Hyeok and Gahm, Jin Kyu},
@@ -60,3 +61,4 @@ Model Outputs
   year={2024},
   publisher={Elsevier}
 }
+```
