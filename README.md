@@ -46,8 +46,7 @@ python main.py
 ```
 
 Model Outputs   
-- Weights: Create a weights directory in the project root to store model weights.   
-- Visualizations: To generate embedded images on the Poincaré Ball, create a temp directory.   
+- Weights: Create a weights directory in the project root to store model weights.
 
 ![UMAP](https://github.com/asd147asd147/Differentiation-of-Atypical-Parkinsonian-Syndromes-Using-Hyperbolic-Few-Shot-Contrastive-Learning/assets/55697983/eacdb273-8e93-437d-90b2-def110611423)
 
